@@ -1,0 +1,109 @@
+.slick-slider {
+    width: 90%;
+    margin: auto;
+    padding: 0px 0px 50px 0px 
+}
+.slick-next:before{
+    font-size: 50px;
+    line-height: 1;
+    opacity: .75;
+    color: #30323d ;
+}
+.slick-prev:before{
+    font-size: 50px;
+    line-height: 1;
+    opacity: .75;
+    color: #30323d ;
+}
+.slick-slider .slick-list, .slick-slider .slick-track{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 22px;
+}
+.Main-div-CArd-sldier{
+    padding: 50px 0pc 50px 0px;
+    width: 80%;
+    margin: auto;
+}
+    
+.main-card-image{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 15px 15px 0px 0px;
+    /* border: 2px solid green; */
+    background: -webkit-linear-gradient( -47deg, rgb(244,160,200) 0%, rgb(112,40,228) 100%);
+    padding: 20px;
+}
+.imkage-container{
+    border-radius: 50%;
+    overflow: hidden;
+    background-position: center;
+    border: 5px solid white;
+    width: 200px;
+    height: 200px;
+}
+.text-div{
+    text-align: center;
+    padding-top: 20px;
+}
+#rating-paragraph{
+ display:flex;
+ justify-content: center;
+ padding-top: 7px;
+}
+.text-div-h2{
+    font-family: 'Open Sans', sans-serif ;
+    font-weight: 600;
+    color: #30323d ;
+    font-size: 22px;
+}
+.css-dqr9h-MuiRating-label{
+    font-size: 25px;
+    /* color: #30323d; */
+}
+.paragrapht{
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Nunito Sans';
+    color: #30323d  ;
+}
+.button-slider{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+#button-slider-button{
+    background: linear-gradient(to right, #F62D53 0%, #FF5F3F 50%, #F62D53 100%);
+    border: medium none;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 19px 35px;
+    text-align: center;
+    text-transform: capitalize;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.slick-dots{
+    display: none !important;
+}
+#button-slider-button:hover{
+    background: linear-gradient(to right, #db1f41 0%, #ca391c 50%, #dd2446 100%);
+}
+@media(max-width:600px){
+    .slick-initialized .slick-slide{
+        width: 100%;
+    }
+}

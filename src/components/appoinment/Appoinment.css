@@ -1,0 +1,111 @@
+.Appoinment-Main{
+    width: 100%;
+    margin: auto;
+    /* background: url(./s_download_bg.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.row-appoint{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.com-appointme{
+    width: 50%;
+}
+
+.appoinmment-input{
+    text-decoration: none;
+    width: 46%;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px !important;
+    margin: 0px 20px 25px 0px;
+    color: #696588;
+    border:2px solid hsla(0,0%,100%,.6);
+    background: #f9f9f9;height: 50px;
+    border-color: #eaedef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+#textarea-appoimnet{
+    width: 94% !important;
+    height: 120px;
+}
+ input:focus{
+outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+#button-Appoinmet
+{
+    background: linear-gradient(to right, #F62D53 0%, #FF5F3F 50%, #F62D53 100%)!important;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 13px;
+    font-size: 16px;
+    font-weight: 700;
+    transition: all 0.5s ease-in-out;
+    border-radius: 5%;
+    height:60px  
+}
+#button-Appoinmet:hover{
+    background: linear-gradient(to right, #960a24 0%, #ca391c 50%, #dd2446 100%);
+    color: rgb(46, 46, 46);
+}
+.appoint-h1{
+    font-size: 40PX;
+    font-family: 'Open Sans', sans-serif;;
+    font-weight: 800    ;
+}
+.appoinment-p{
+    font-size: 22px;
+    color: #777;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-top: 13px;
+}
+.main-button{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.row-makng-allert{
+    /* position: absolute; */
+    /* background: white; */
+    /* height: 50vh;
+    width: 100%;
+    top: 83%; */
+    display: flex;
+    align-items: center;
+    justify-content: initial;
+}
+.result-paragraph{
+    font-family: 'Rubik';
+    font-size: 21px;
+    background: linear-gradient(to right, rgb(244,160,200) 0%, rgb(112,40,228) 100%) !important;
+    padding: 14px;
+    color: white;
+    border-radius: 5px;
+    width: 94%;
+}
+@media(max-width:600px){
+    .row-appoint{
+flex-wrap: wrap;
+width:90%;
+margin: auto;
+
+}.com-appointme{
+        width: 100%;
+    }.appoint-h1{
+        font-size: 34px;
+    }.appoinment-p{
+        font-size: 18px;
+    }.appoinmment-input{
+        width: 94%;
+    }.result-paragraph{
+        font-size: 11px;
+    }
+}

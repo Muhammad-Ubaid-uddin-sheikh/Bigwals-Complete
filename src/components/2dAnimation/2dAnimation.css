@@ -1,0 +1,39 @@
+.rw0-2d-animation{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.images-2d-animation{
+    width: 25%;
+        height: 65vh;
+    overflow: hidden;
+}
+.image-3d-desin img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.image-3d-desin{
+    height: 100vh;
+    width: 100%;
+}
+.images-2d-animation img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#padding-propeties-colm-courosel{
+    padding: 100px !important;
+}
+@media(max-width:600px){
+.image-3d-desin{
+    height: auto;
+}#padding-propeties-colm-courosel{
+    padding: 0px !important;
+}.images-2d-animation{
+    height: 35vh;
+    width: 50%;
+}.text-banner{
+    padding-left: 10%;
+}
+}

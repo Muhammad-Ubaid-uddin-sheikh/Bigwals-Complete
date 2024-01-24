@@ -1,0 +1,168 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+
+.main-div-footer{
+    background-color: white;
+    width: 85%;
+    margin: auto;
+}
+#new-first-footer{
+    padding-left: 30px;
+}
+.css-14tj9bu-MuiGrid-root{
+    padding-top: 40px;
+}
+.first-footer-div h2{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #30323d;
+    padding-bottom: 30px;
+
+}
+.first-footer-div p{
+    transition: all 0.5s ease-in-out;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    color: #30323d;
+    font-weight: 300;
+    cursor: pointer;
+}
+.first-footer-div p:hover{
+    color: purple;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+     
+}
+#icon-fotter-icon{
+    font-size: 28px;
+    color: #30323d;
+    transition: all 0.3s ease-in-out;
+}
+.icon-social-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+#icon-fotter-icon:hover{
+    color: purple;
+    cursor: pointer;
+}
+.row-branding{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.colm-branding-big{
+    width: 27%;
+}
+.colm-branding-big p{
+    padding: 20px 0px 20px 0;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    font-weight: 600;
+}
+.branding-big{
+    width: 100%;
+    background-color: white;
+}
+.top-logo-foter{
+    display:flex ;
+    justify-content: space-between;
+    border-bottom: 2px solid purple;
+ padding: 20px 0px 20px 0px ;
+}
+.com-footer-top{
+    width: 13%;
+}
+.com-footer-top-footer{
+    width: 87%;
+    display: flex;
+    justify-content: end;
+}
+/* .css-14tj9bu-MuiGrid-root{
+    width: 100% !important;
+} */
+.com-first-two-div{
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    color:#30323d;
+    font-size: 18px;
+    gap: 18px;
+   justify-content: end;
+    width: 36%;
+}
+.main-footer-div-all{
+    width:100%;
+    background-color: white
+}
+.main-footer-bottom-div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+.com-footer-new-bootm{
+    width: 25%;
+}
+@media(max-width:600px){
+    .main-footer-bottom-div{
+        padding-top: 20px;
+        gap: 10px;
+    }
+    .com-footer-new-bootm{
+        width: 100%;
+    }
+    /* .css-ht032f{
+        box-sizing: border-box;
+    flex-direction: row;
+    flex-basis: 49%;     
+     max-width: 0%;
+    padding-top: 20px;
+    } */
+    .main-div-footer{
+        width: 90%;
+    }.top-logo-foter{
+        flex-wrap: wrap;
+    }.com-footer-top{
+        width: 50%;
+    }.com-footer-top-footer{
+        flex-wrap: wrap !important;
+        width: 100% !important;
+        margin: auto !important;
+    }.com-first-two-div{
+        width: 100% !important;
+        justify-content:initial !important;
+    }.css-1nv1o5k-MuiGrid-root{
+        max-width: 100% !important;
+        flex-basis: 100% !important;
+        padding-top: 26px !important;
+    }.first-footer-div h2{
+        font-size: 26px;
+        padding-top: 50px;
+    }#new-first-footer{
+        padding-left: 0px !important;
+    }.first-footer-div p{
+        font-size: 17px;
+    }.icon-social-media{
+        width: 70%;
+        gap: 8px;
+    }.row-branding{
+        justify-content: space-between;
+    }.colm-branding-big{
+        width: 50%;
+    padding: 0px 19px 0px 19px;
+    }.colm-branding-big p{
+        padding: 15px 0px 0px 0;
+        font-size: 15px;
+    }
+}

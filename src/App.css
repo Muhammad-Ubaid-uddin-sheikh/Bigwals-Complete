@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.layout{
+    min-height: 100vh;
+}
+::selection {
+    color: white;
+    background: rgba(112,40,228);
+  }
+.fakeSnow{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /* background-color: white; */
+overflow: hidden;
+}
+.fake-snow-div-box div{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+}
+.fake-snow-div-box div:nth-child(1){
+    top: 12%;
+    left:42%;
+    animation: animatedFakeSnow 10s linear infinite;
+    background-color: green;
+}
+.fake-snow-div-box div:nth-child(2){
+    top: 70%;
+    left:50%;
+    animation: animatedFakeSnow 9s linear infinite;
+    background-color: yellow;
+    
+}
+.fake-snow-div-box div:nth-child(3){
+    top: 17%;
+    left:6%;
+    animation: animatedFakeSnow 7s linear infinite;
+    background-color: purple;
+}
+.fake-snow-div-box div:nth-child(4){
+    top: 20%;
+    left:60%;
+    animation: animatedFakeSnow 10s linear infinite;
+    background-color: brown;
+}
+.fake-snow-div-box div:nth-child(5){
+    top: 67%;
+    left:10%;
+    animation: animatedFakeSnow 6s linear infinite;
+    background-color: blue;
+}
+.fake-snow-div-box div:nth-child(6){
+    top: 80%;
+    left:70%;
+    animation: animatedFakeSnow 12s linear infinite;
+    background-color: darkcyan;
+}
+.fake-snow-div-box div:nth-child(7){
+    top: 60%;
+    left:80%;
+    animation: animatedFakeSnow 15s linear infinite;
+    background-color: darkgoldenrod;
+}
+.fake-snow-div-box div:nth-child(8){
+    top: 32%;
+    left:25%;
+    animation: animatedFakeSnow 16s linear infinite;
+    background-color: darkkhaki;
+}
+.fake-snow-div-box div:nth-child(9){
+    top: 90%;
+    left:25%;
+    animation: animatedFakeSnow 9s linear infinite;
+    background-color: darkorange;
+}
+.fake-snow-div-box div:nth-child(10){
+    top: 21%;
+    left:89%;
+    animation: animatedFakeSnow 5s linear infinite;
+    background-color: red;
+}
+.fake-snow-div-box div:nth-child(11){
+    top: 2%;
+    left:42%;
+    animation: animatedFakeSnow 13s linear infinite;
+    background-color: forestgreen;
+}
+.fake-snow-div-box div:nth-child(12){
+    top: 75%;
+    left:77%;
+    animation: animatedFakeSnow 10s linear infinite;
+    background-color:black;
+}
+.fake-snow-div-box div:nth-child(13){
+    top: 37%;
+    left:60%;
+    animation: animatedFakeSnow 6s linear infinite;
+    background-color:violet;
+}
+.fake-snow-div-box div:nth-child(14){
+    top: 14%;
+    left:63%;
+    animation: animatedFakeSnow 5s linear infinite;
+    background-color: green;
+}
+.fake-snow-div-box div:nth-child(15){
+    top: 17%;
+    left:11%;
+    animation: animatedFakeSnow 16s linear infinite;
+    background-color: green;
+}
+.fake-snow-div-box div:nth-child(16){
+    top: 13%;
+    left:78%;
+    animation: animatedFakeSnow 10s linear infinite;
+    background-color: darkcyan;
+}
+.fake-snow-div-box div:nth-child(17){
+    top: 21%;
+    left:60%;
+    animation: animatedFakeSnow 13s linear infinite;
+    background-color: darkgoldenrod;
+}
+.fake-snow-div-box div:nth-child(18){
+    top: 42%;
+    left:15%;
+    animation: animatedFakeSnow 11s linear infinite;
+    background-color: darkkhaki;
+}
+.fake-snow-div-box div:nth-child(19){
+    top: 50%;
+    left:22%;
+    animation: animatedFakeSnow 10s linear infinite;
+    background-color: darkorange;
+}
+.fake-snow-div-box div:nth-child(20){
+    top: 53%;
+    left:83%;
+    animation: animatedFakeSnow 2s linear infinite;
+    background-color:cadetblue;
+}
+.fake-snow-div-box div:nth-child(21){
+    top: 32%;
+    left:37%;
+    animation: animatedFakeSnow 10s linear infinite;
+    background-color:aqua;
+}
+.fake-snow-div-box div:nth-child(22){
+    top: 70%;
+    left:30%;
+    animation: animatedFakeSnow 9s linear infinite;
+    background-color:black;
+}
+.fake-snow-div-box div:nth-child(23){
+    top: 37%;
+    left:2%;
+    animation: animatedFakeSnow 7s linear infinite;
+    background-color: red;
+}
+.fake-snow-div-box div:nth-child(24){
+    top: 70%;
+    left:50%;
+    animation: animatedFakeSnow 10s linear infinite;
+    background-color: blue;
+}
+.fake-snow-div-box div:nth-child(25){
+    top: 75%;
+    left:30%;
+    animation: animatedFakeSnow 6s linear infinite;
+    background-color:darkgreen;
+}
+.fake-snow-div-box div:nth-child(26){
+    top: 40%;
+    left:35%;
+    animation: animatedFakeSnow 12s linear infinite;
+    background-color: black;
+}
+.fake-snow-div-box div:nth-child(27){
+    top: 30%;
+    left:50%;
+    animation: animatedFakeSnow 15s linear infinite;
+    background-color: red;
+}
+.fake-snow-div-box div:nth-child(28){
+    top: 23%;
+    left:27%;
+    animation: animatedFakeSnow 16s linear infinite;
+    background-color:aqua;
+}
+.fake-snow-div-box div:nth-child(29){
+    top: 33%;
+    left:22%;
+    animation: animatedFakeSnow 9s linear infinite;
+    background-color:chocolate;
+}
+.fake-snow-div-box div:nth-child(30){
+    top: 44%;
+    left:19%;
+    animation: animatedFakeSnow 5s linear infinite;
+    background-color: red;
+}
+.notapimatch{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+}
+.notapimatch h1{
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 31px;
+
+}
+.colm-not-api-find{
+width: 92%;}
+
+
+.row-not-api-fing{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    justify-content: center;
+    align-items: baseline;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0px 0px 2px 2px #77777775;
+    border-radius: 5px;
+    padding: 35px 32px;
+
+}
+.colm-not-api-find-icon{
+width: 8%;}
+#icon-id-not-found-IP{
+font-size: 80px;
+color: #f72121;}
+
+.subdiv-not-api p{
+font-size: 16px;
+    font-weight: 400;
+    color: #777;}
+    .subdiv-not-api li {
+        font-size: 16px;
+    font-weight: 500;
+    color: #777;
+    }   
+    @media(max-width:600px){
+        .row-not-api-fing{
+            display: block;
+            width: 90%;
+        }.colm-not-api-find-icon{
+            width: 100%;
+        }.colm-not-api-find{
+            width: 100%;
+        }.subdiv-not-api p{
+            font-size: 14px;
+        }.subdiv-not-api li{
+            font-size: 15px;
+        }.notapimatch h1{
+            font-size: 20px;
+        }
+    }
+@keyframes animatedFakeSnow {
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.3) translateY(-300px) rotate(360deg);
+        opacity: 0;
+    }
+} 

@@ -1,0 +1,32 @@
+.main-tablist-pricing{
+    width:94%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+.row-pricing-tablsit{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+#backgroundTablist{
+    background:url(../appoinment/s_download_bg.png);
+    background-repeat: no-repeat;
+}
+@media(max-width:600px){
+.row-pricing-tablsit
+{flex-wrap: wrap;
+}.main-tablist-pricing{
+width: 90%;
+}#div-sytyle-pricing-top{    padding-bottom: 16px;
+    font-size: 26px;
+    padding-top: 15px;
+}.pricinbg-page-box {
+    font-size: 45px;
+  padding: 15px 20px;
+
+}#button-pricing-sec{
+    padding: 13px 24px;
+}
+}

@@ -1,0 +1,105 @@
+.main-meu-drop-down-div{
+    position: absolute;
+    top: 70px;
+    width: 50%;
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+    right: 5%;
+   opacity: 0;
+    visibility: hidden;
+    transition: top .3s ;
+    height: 50vh;
+}
+.com-main-more-drop{
+width: 25%;
+}
+.NavigationMenu :hover > .main-meu-drop-down-div{
+    opacity: 1;
+    visibility: visible;
+    top: 53px;
+
+}
+.paragrph-mint-lagde{
+    text-decoration: none;
+    color: white;
+    font-size: 17.5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+.paragrph-tet-main-drop-dwon{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #30323d;
+
+}
+.inter-ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.main0-send-drp-down{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    margin-top: 69px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px 3px #c9c9c9;
+}
+.iinter-menu-drop{
+    padding: 10px 0px 10px 0px;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    color: #30323d;
+    font-weight: 300;
+    cursor: pointer;
+}
+.iinter-menu-drop:hover{
+    color: purple;
+}
+
+.com-first-two-div{
+  font-size: 16px !important;
+}
+/* nav a.active{
+  color: green;
+} */
+
+/* 
+.dropdown-toggle {
+    background-color: #f2f2f2;
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu li {
+    padding: 5px 0;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f2f2f2;
+  } */

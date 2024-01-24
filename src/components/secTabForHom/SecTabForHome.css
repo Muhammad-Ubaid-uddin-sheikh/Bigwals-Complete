@@ -1,0 +1,260 @@
+.css-1n3h4wo{
+    display: flex !important;
+    height: 650px !important;
+    width: 80% !important;
+    margin: auto !important;
+}
+.css-1vr8b6v{
+    width: 30% !important;
+}
+.css-35zqo5-MuiTabs-root{
+    overflow: hidden;
+    min-height: 48px;
+    -webkit-overflow-scrolling: touch;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width:30% !important;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+    color: white;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    background: white !important;
+    color: black !important;
+    /* border-radius: 50px 0px 0px 50px !important; */
+}
+.css-1cgx7kx-MuiTabs-scroller{
+    background:-webkit-linear-gradient( -47deg, rgb(244,160,200) 0%, rgb(112,40,228) 100%) !important;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+.css-10d9dml-MuiTabs-indicator{
+    background:  -webkit-linear-gradient( -47deg, rgb(244,160,200) 0%, rgb(112,40,228) 100%) !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    font-size: 18px !important;
+    align-items: baseline !important;
+    padding:  20px 20px !important ;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    padding-left: 50px;
+}
+#vertical-tabpanel-0{
+    box-shadow: 0px 0px 15px 0px #ababab;
+    width: 70% !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#vertical-tabpanel-1{
+    box-shadow: 0px 0px 15px 0px #ababab;
+    width: 70% !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#vertical-tabpanel-2{
+    box-shadow: 0px 0px 15px 0px #ababab;
+    width: 70% !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#vertical-tabpanel-3{
+    box-shadow: 0px 0px 15px 0px #ababab;
+    width: 70% !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#vertical-tabpanel-4{
+    box-shadow: 0px 0px 15px 0px #ababab;
+    width: 70% !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#vertical-tabpanel-5{
+    box-shadow: 0px 0px 15px 0px #ababab;
+    width: 70% !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#vertical-tabpanel-6{
+    box-shadow: 0px 0px 15px 0px #ababab;
+    width: 70% !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#vertical-tabpanel-7{
+    box-shadow: 0px 0px 15px 0px #ababab;
+    width: 70% !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#vertical-tabpanel-8{
+    box-shadow: 0px 0px 15px 0px #ababab;
+    width: 70% !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#vertical-tabpanel-9{
+    box-shadow: 0px 0px 15px 0px #ababab;
+    width: 70% !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.secTabist-main-div{
+    padding: 40px 77px 25px 75px;
+}
+.tablsit-sec-h2{
+    font-size: 40px;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.paragraph-sec-tablsst{
+    font-size: 22px;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+.row-sec-tablsit{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.colm-tablist-sec ul li{
+    list-style: circle;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+    text-decoration: none;
+    line-height: 68px;
+    font-weight: 500;
+  
+}
+.colm-tablist-sec ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+    margin: 0;
+    transition: all 0.4s ease-in-out;
+    padding-left: 0 !important;
+}
+.colm-tablist-sec ul li a:hover{
+    color: purple;
+}
+/* #banner-background-tablist-secong{
+      background:url('../../styles/14.png');
+    background-position: left;
+} */
+.colm-tablist-sec-ul{
+    padding-left: 0 !important;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 90px;
+}
+.bold-heading{
+    font-size: 25px;
+}
+
+.row{
+    display: flex !important;
+    height: 650px !important;
+    width: 80% !important;
+    margin: auto !important;
+    /* background: aqua; */
+}
+.col-sm-3{
+    width: 30% !important;
+    background: -webkit-linear-gradient( -47deg, rgb(244,160,200) 0%, rgb(112,40,228) 100%) !important;
+}
+.col-sm-9{
+    box-shadow: 0px 0px 15px 0px #ababab;
+    width: 70% !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 650px !important;
+    background: white;
+}
+.flex-column {
+    flex-direction: column!important;
+    /* background: -webkit-linear-gradient( -47deg, rgb(244,160,200) 0%, rgb(112,40,228) 100%) !important; */
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-bottom: 40px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    font-family: 'Open Sans', sans-serif!important;
+    color: black !important;
+    border-radius: 30px 0px 30px 0px !important;
+    transition: 0.5s all ease-in-out;
+    background: white !important;
+    padding: 15px 12px 15px 12px !important;
+}
+.nav-pills .nav-link{
+    font-size: 17px !important;
+    font-weight: 500 !important;
+    font-family: 'Open Sans', sans-serif!important;
+    color: white !important;
+    padding: 15px 12px 15px 12px !important;
+}
+.row>*{
+    padding-right: 0 !important; 
+    padding-left: 0 !important;
+     margin-top: 0 !important;
+}
+@media(max-width:600px){
+    .css-1n3h4wo{
+        width: 90% !important;
+        flex-wrap: wrap;
+    }.css-35zqo5-MuiTabs-root{
+        width: 100% !important;
+    }.css-1cgx7kx-MuiTabs-scroller{
+        height: 50vh;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }#vertical-tabpanel-0 , #vertical-tabpanel-1 , #vertical-tabpanel-2 , #vertical-tabpanel-3 , #vertical-tabpanel-4 , #vertical-tabpanel-5
+    , #vertical-tabpanel-6 , #vertical-tabpanel-7 , #vertical-tabpanel-8 , #vertical-tabpanel-9{
+        width: 100% !important;
+        height: 70vh;
+        overflow-Y: scroll;
+        overflow-x: hidden;
+    }.secTabist-main-div{
+        padding: 20px 15px 20px 15px;
+    }.tablsit-sec-h2 {
+        font-size: 29px;
+        padding-bottom: 20px;
+        padding-top: 15px;
+    }.paragraph-sec-tablsst{
+        font-size: 16px;
+        padding-bottom: 10px;
+    }.colm-tablist-sec-ul{
+        display: block;
+        padding-bottom: 10px;
+        margin-left: 20px;
+    }.colm-tablist-sec ul li a{
+        font-size: 18px;
+    }.colm-tablist-sec ul li {
+        list-style: circle;
+        font-size: 18px;
+        padding-top: 10px;
+        line-height: 30px;
+        padding-left: 15px;
+    }.bold-heading{
+        font-size: 22px;
+    }.row{
+        display: block !important;
+        width: 90% !important;
+        height: 105vh;
+    }.col-sm-3{
+        width: 100% !important;
+        height: 45vh;
+        overflow: scroll;
+    }.col-sm-9{
+        width: 100% !important;
+    }
+}

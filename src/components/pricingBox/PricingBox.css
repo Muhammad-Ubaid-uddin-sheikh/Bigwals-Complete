@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100;1,200;1,300;1,400;1,600&display=swap');
+#icon-checkcircle-price{
+    /* color: #066643; */
+    color: black;
+    font-size: 18px;
+}
+#pedal-bike-pricing{
+    font-size:76px;
+    color: black;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+
+}
+.colm-main-pricing{
+    perspective: 1000px;
+    z-index: 2;
+    color: rgba(var(--main-bg-color), 1);
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 600;
+    position: relative;
+    border:  1px solid #efefef; 
+    border-radius: 10px;
+    padding-bottom: 20px;
+  /* overflow: hidden; */
+}
+.row-colm-main-pricing{
+    background: transparent;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+/* .colm-main-pricing::before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgb(103, 103, 103);
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transform-style: preserve-3d;
+    transform: rotateY(-10deg);
+    /* filter: blur(20px); */
+    /* transition: all .2s linear 0s;
+    background: #EBFAF4; */
+
+/* .colm-main-pricing::after {
+        background:linear-gradient(109.6deg, rgb(0, 192, 131) 11.2%, rgb(32, 40, 48) 91.3%);;   
+        position: absolute;
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        -webkit-transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
+        -webkit-transform: rotateY(-10deg);
+        transform-style: preserve-3d;
+        transform: rotateY(-10deg);
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 0 1px transparent;
+        cursor: pointer;
+        box-shadow: 3px 2px 4px 1px black;
+} */
+.small-pricing{
+    position: relative;
+    font-size: 21px;
+    color: purple;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    font-weight: 500;
+
+}
+.colm-pricing-inner-box{
+    padding-top: 10px;
+}
+/* .small-pricing-old::after{
+    border-bottom: 0.15rem solid black;
+    content: "";
+    left: 15px;
+    margin-top: calc(0.2rem / 2 * -1);
+    position: absolute;
+    right: 0;
+    top: 50%;
+} */
+#div-sytyle-pricing-top{
+    text-align: center;
+    border-bottom: 2px solid #dcdee9;
+    padding-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding-top: 20px;
+}
+#div-blank-padding{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.pakages{
+    align-items: center;
+    display: flex;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    gap: 16px;
+    font-weight: 500;
+    color: #30323d;
+}
+.pakagres-price{
+max-height: 182px;
+width: 100%;
+overflow: auto;
+margin-top: 30px;
+    padding-left: 80px;
+
+}
+.third-row{
+    display:flex;
+    justify-content:center;
+    padding-bottom: 25px;
+}
+.PricingBox-main-div{
+    width:100%;
+    /* background: rgb(235, 250, 244); */
+    padding-bottom: 40px;
+    /* position: relative; */
+}
+
+#new-colm-pricing-box{
+    overflow: hidden;
+}
+#row-colm-main-edit-color{
+    background:-webkit-linear-gradient( -47deg, rgb(244,160,200) 0%, rgb(112,40,228) 100%) ;
+}
+.ribbon {
+    margin: 0;
+    padding: 0;
+    background: #00D285;
+    color:black;
+    padding:1em 0;
+    position: absolute;
+    top:0;
+    right:0;
+    transform: translateX(34%) translateY(-19%) rotate(40deg);
+    transform-origin: top left;
+    font-size: 15px;
+    font-family:'Nunito Sans', sans-serif;
+    font-weight: 700;
+  }
+  /* .ribbon:before,
+  .ribbon:after {
+    content: '';
+    position: absolute;
+    top:0;
+    margin: 0 -1px;
+     width: 100%;
+    height: 100%;
+    background: #00D285;
+  }
+  .ribbon:before {
+    right:100%;
+  }
+  
+  .ribbon:after {
+    left:100%;
+  }  */
+
+
+
+
+
+
+
+/* 
+///////////////// ribbons end ////////////////////// */
+.row-procing-box{
+    display:flex;
+    justify-content:space-between;
+    width: 99%;
+    margin: auto;
+}
+.colm-pricing-box{
+    width:100%;
+    transition: all 0s ease !important;
+    position: relative;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 600;
+    background: #fff;
+    border-radius: 10px;
+
+}
+.pricinbg-page-box{
+    font-size: 38px;
+    font-family:'Open Sans', sans-serif;
+    padding: 20px 20px ;
+}
+
+#personal-edit-pricing{
+    display: flex;
+    justify-content: inherit;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#button-price-project{
+    background: #0ca36b;
+    font-family: 'Nunito Sans';
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    border-radius: 0px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in;
+    border-radius: 3px;
+    opacity: 0.9;
+}
+.third-div-prices-caa{
+    padding-top: 40px;
+}
+
+#button-pricing-sec{
+    background: linear-gradient(to right, #F62D53 0%, #FF5F3F 50%, #F62D53 100%);
+    border: medium none;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 19px 35px;
+    text-align: center;
+    text-transform: capitalize;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+hr{
+    color: #777;
+    margin-bottom: 30px;
+}
+.colm-main-pricing:hover{
+    /* background-color: white; */
+    box-shadow:0px 0px 95px 0px rgba(0, 0, 0, 0.09) ;
+    border: transparent; 
+    
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background:-webkit-linear-gradient( -47deg, rgb(244,160,200) 0%, rgb(112,40,228) 100%) ;
+    /* background:linear-gradient(transparent,#00D285); */
+    border-radius: 6px;
+
+}
+.row-colm-main-pricing:hover{
+    background:-webkit-linear-gradient( -47deg, rgb(244,160,200) 0%, rgb(112,40,228) 100%) ;
+}
+#button-price-project:hover{
+    color: black;
+    background-color: white;
+}
+.colm-pricing-box:hover{
+    color:black;
+}
+.colm-pricing-box{
+    color: #30323d;
+}
+/* .colm-pricing-box #pedal-bike-pricing:hover{
+    color: green;
+} */
+@media (max-width:600px) {
+    .pricinbg-page-box{
+        font-size: 30px !important;
+        padding: 15px 20px !important;
+    }#div-sytyle-pricing-top {
+        padding-bottom: 16px !important;
+        font-size: 26px !important;
+        padding-top: 15px !important;
+    }
+}
